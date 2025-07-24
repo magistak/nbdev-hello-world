@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-hello-world",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.\nIf you are new to using nbdev here are some useful pointers to get you started.",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev-hello-world",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/magistak/nbdev-hello-world.git\nor from conda\n$ conda install -c magistak nbdev_hello_world\nor from pypi\n$ pip install nbdev_hello_world\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-hello-world",
+    "section": "How to use",
+    "text": "How to use\n\nhello()\n\nHello world!\n\n\n\nsay_hello(\"Name\")\n\n'Hello Name!'",
+    "crumbs": [
+      "nbdev-hello-world"
+    ]
+  },
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
+    "title": "Hello world!",
+    "section": "",
+    "text": "source\n\nhello\n\n hello ()\n\nSay hello!\n\nsource\n\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody!\n\nfrom fastcore.test import *\n\n\ntest_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nfrom IPython.display import display,SVG\n\n\ndisplay(SVG('&lt;svg height=\"100\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;circle cx=\"50\" cy=\"50\" r=\"40\"/&gt;&lt;/svg&gt;'))",
+    "crumbs": [
+      "Hello world!"
+    ]
+  }
+]
