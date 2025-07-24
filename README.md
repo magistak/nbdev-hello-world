@@ -6,8 +6,6 @@
 This file will become your README and also the index of your
 documentation.
 
-## Developer Guide
-
 If you are new to using `nbdev` here are some useful pointers to get you
 started.
 
@@ -58,10 +56,14 @@ can find package manager specific guidelines on
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
-
 ``` python
-1+1
+hello()
 ```
 
-    2
+    Hello world!
+
+``` python
+say_hello("Name")
+```
+
+    'Hello Name!'

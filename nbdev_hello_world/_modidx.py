@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://magistak.github.io',
                 'git_url': 'https://github.com/magistak/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.hello': { 'nbdev_hello_world.hello.hello': ('hello.html#hello', 'nbdev_hello_world/hello.py'),
+                                         'nbdev_hello_world.hello.say_hello': ('hello.html#say_hello', 'nbdev_hello_world/hello.py')}}}
